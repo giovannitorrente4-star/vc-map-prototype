@@ -12,7 +12,7 @@ st.title("🇺🇸 VC Map MVP")
 # -----------------------
 # Load embedded CSV
 # -----------------------
-DATA_PATH = "Data/VC_Map_Final_Reliable.csv"
+DATA_PATH = "VC_Map_Final_Reliable.csv"
 
 try:
     df = pd.read_csv(DATA_PATH)
